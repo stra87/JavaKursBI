@@ -16,7 +16,6 @@ public class Main {
         int c = a + b;
 
 
-
         System.out.println("Number is:");
         System.out.println(c);
     }
