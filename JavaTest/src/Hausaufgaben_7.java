@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Hausaufgaben_7 {
     public static void main(String[] args) {
         System.out.println("Welche Zahl wählst du zwischen 0 und 1?");
@@ -8,6 +7,8 @@ public class Hausaufgaben_7 {
         double Zahl = Double.valueOf(EingabeZahl);
 
         double zufall = Math.random();
+
+        if Zahl > zufall;
 
         System.out.println(zufall);
     }

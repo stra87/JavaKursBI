@@ -10,11 +10,5 @@ public class Hausaufgaben_1 {
             System.out.println(a + b < 19 && b < 1);
             System.out.println(3 < 5 && 3 > 5);
             System.out.println((3 < 5 && a > 3) ^ b == 1);
-
-
-
-
-
     }
-
 }
