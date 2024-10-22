@@ -1,15 +1,8 @@
-import java.util.Scanner;
-
 public class Hausaufgaben_7 {
     public static void main(String[] args) {
-        System.out.println("Welche Zahl wählst du zwischen 0 und 1?");
-        String EingabeZahl = new Scanner(System.in).nextLine();
-        double Zahl = Double.valueOf(EingabeZahl);
-
         double zufall = Math.random();
 
-        if Zahl > zufall;
-
-        System.out.println(zufall);
+        if (zufall < 0.39) System.out.println("Du hast gewonnen. Die Zahl ist " + zufall);
+        else System.out.println("Du hast verloren. Die Zahl ist " + zufall);
     }
 }
