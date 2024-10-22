@@ -1,8 +1,7 @@
-public class Hausaufgaben {
+public class Hausaufgaben_1 {
     public static void main(String[] args) {
             int a = 4;
             int b = 1;
-
 
             if (a < 5 || a < 6) System.out.println("Das ist korrekt");
             else System.out.println("Das ist falsch");
@@ -11,6 +10,10 @@ public class Hausaufgaben {
             System.out.println(a + b < 19 && b < 1);
             System.out.println(3 < 5 && 3 > 5);
             System.out.println((3 < 5 && a > 3) ^ b == 1);
+
+
+
+
 
     }
 
