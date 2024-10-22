@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Hausaufgaben_8 {
+public class HA_Verzweigungen_8 {
     public static void main(String[] args) {
         int zufall = (int) (Math.random()*100 + 1);
 
@@ -11,7 +11,6 @@ public class Hausaufgaben_8 {
         System.out.println("Welche Zahl wählt Spieler 2 aus 0 von 100?");
         String EingabeZahl2 = new Scanner(System.in).nextLine();
         double Zahl2 = Double.valueOf(EingabeZahl2);
-
 
     }
 }

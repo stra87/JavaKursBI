@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Hausaufgaben_3 {
+public class HA_Verzweigungen_3 {
     public static void main(String[] args) {
         System.out.println("Wie hoch ist der Auftragswert?");
         String neueEingabe = new Scanner(System.in).nextLine();

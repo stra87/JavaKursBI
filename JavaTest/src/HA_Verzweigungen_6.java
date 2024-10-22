@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Hausaufgaben_6 {
+public class HA_Verzweigungen_6 {
     public static void main(String[] args) {
         System.out.println("Wie alt bist du?");
         String age_input = new Scanner(System.in).nextLine();

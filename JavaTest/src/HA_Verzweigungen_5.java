@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Hausaufgaben_5 {
+public class HA_Verzweigungen_5 {
     public static void main(String[] args) {
         double Guthaben = 136.34;
         System.out.println("Wieviel Geld wollen Sie abheben?");

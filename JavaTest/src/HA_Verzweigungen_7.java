@@ -1,4 +1,4 @@
-public class Hausaufgaben_7 {
+public class HA_Verzweigungen_7 {
     public static void main(String[] args) {
         double zufall = Math.random();
 

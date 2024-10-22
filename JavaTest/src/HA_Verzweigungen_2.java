@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.lang.Math;
 
-public class Hausaufgaben_2 {
+public class HA_Verzweigungen_2 {
     public static void main(String[] args) {
         System.out.println("Gebe deine Zahl ein");
         String neueEingabe = new Scanner(System.in).nextLine();

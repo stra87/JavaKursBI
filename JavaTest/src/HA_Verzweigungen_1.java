@@ -1,4 +1,4 @@
-public class Hausaufgaben_1 {
+public class HA_Verzweigungen_1 {
     public static void main(String[] args) {
             int a = 4;
             int b = 1;

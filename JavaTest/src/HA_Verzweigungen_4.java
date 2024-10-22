@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.lang.Math;
 
-public class Hausaufgaben_4 {
+public class HA_Verzweigungen_4 {
     public static void main(String[] args) {
         System.out.println("Wie lang ist die erste Seite des Dreiecks?:");
         String enterA = new Scanner(System.in).nextLine();
