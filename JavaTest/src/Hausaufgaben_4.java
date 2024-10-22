@@ -22,4 +22,8 @@ public class Hausaufgaben_4 {
         }
 
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/main
