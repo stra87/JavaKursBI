@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class HA_Schleifen_1 {
     public static void main (String [] args) {
 
@@ -16,14 +18,45 @@ public class HA_Schleifen_1 {
 //            System.out.println(Integer.toString(i3));
 //        }
 
-        System.out.println("Teilaufgabe 4:");
-        for (int i4 = 1; i4 < 1000; i4 = i4 * 2) {
-            System.out.println(Integer.toString(i4));
-        }
+//        System.out.println("Teilaufgabe 4:");
+//        for (int i4 = 1; i4 < 1000; i4 = i4 * 2) {
+//            System.out.println(Integer.toString(i4));
+//        }
+//
+//        System.out.println("Teilaufgabe 5:");
+//        for (int i5 = 1; i5 < 1000; i5 = i5 * 2) {
+//            System.out.println(Integer.toString(i5));
+//        }
 
-        System.out.println("Teilaufgabe 5:");
-        for (int i5 = 1; i5 < 1000; i5 = i5 * 2) {
-            System.out.println(Integer.toString(i5));
-        }
+//        System.out.println("Teilaufgabe 6:");
+//            int i6 = 0;
+//            while (i6 < 100) {
+//                int summand = 1;
+//                int i6 += summand;
+//
+
+
+//            }
+//
+//
+//
+//            System.out.println(Integer.toString(i6));
+//        }
+
+
+//        System.out.println("Teilaufgabe 7:");
+//        System.out.println("Bitte gib deine Startzahl ein :");
+//        int i7a = new Scanner(System.in).nextInt();
+//
+//        System.out.println("Bitte gib deine Endzahl ein :");
+//        int i7b = new Scanner(System.in).nextInt();
+//
+//        System.out.println("Bitte gib deine Schrittweise ein :");
+//        int i7s = new Scanner(System.in).nextInt();
+//
+//        do {
+//            System.out.println(i7a);
+//            i7a += i7s;
+//        } while (i7a <= i7b);
     }
 }

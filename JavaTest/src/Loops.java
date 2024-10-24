@@ -43,28 +43,45 @@ public class Loops {
 //            }
 //        }
 
-        final int maxNumber = 4;
+//        final int maxNumber = 4;
+//
+//        long number2 = Math.round(Math.random() * maxNumber);
+//
+//        int counter = 0;
+//        long num = -1;
+//        long oldnum = -1;
+//
+//        while (number2 != num) {
+//            num = Math.round(Math.random() * maxNumber);
+//            if (oldnum == num) {
+//                System.out.println("nochmal?");
+//                continue;
+//            }
+//
+//            oldnum = num;
+//
+//            counter++;
+//        }
+//
+//        System.out.println("Wir haben so viele Versuche gebraucht");
+//        System.out.println(Integer.toString(counter));
 
-        long number2 = Math.round(Math.random() * maxNumber);
+        double x = 5.5;
+        double y = 0.3;
 
-        int counter = 0;
-        long num = -1;
-        long oldnum = -1;
+        do {
+            x += y;
+            System.out.println("Hallo");
+        }
+        while (x < 3);
 
-        while (number2 != num) {
-            num = Math.round(Math.random() * maxNumber);
-            if (oldnum == num) {
-                System.out.println("nochmal?");
-                continue;
-            }
-
-            oldnum = num;
-
-            counter++;
+        while (x < 3) {
+            x += y;
+            System.out.println("Tschüss");
         }
 
-        System.out.println("Wir haben so viele Versuche gebraucht");
-        System.out.println(Integer.toString(counter));
+
+
 
     }
 }
