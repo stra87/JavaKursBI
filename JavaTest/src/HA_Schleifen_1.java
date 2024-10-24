@@ -28,20 +28,18 @@ public class HA_Schleifen_1 {
 //            System.out.println(Integer.toString(i5));
 //        }
 
-//        System.out.println("Teilaufgabe 6:");
-//            int i6 = 0;
-//            while (i6 < 100) {
-//                int summand = 1;
-//                int i6 += summand;
-//
+        System.out.println("Teilaufgabe 6:");
+            int i6 = 0;
+            int addition = 1;
 
 
-//            }
-//
-//
-//
-//            System.out.println(Integer.toString(i6));
-//        }
+            while (i6 < 100) {
+                int i6_new = i6 + addition;
+                i6 += i6_new;
+                System.out.println(i6);
+
+            }
+
 
 
 //        System.out.println("Teilaufgabe 7:");
