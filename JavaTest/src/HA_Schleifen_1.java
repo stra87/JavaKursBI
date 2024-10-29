@@ -36,9 +36,16 @@ public class HA_Schleifen_1 {
                 System.out.println(i6_triangular);
                 i6_triangular = (i6 * (i6 + 1)) / 2;
                 i6++;
-
-
             }
+            int i6b = 0;
+            int summand = 1;
+
+            while (i6b < 100) {
+                System.out.println(i6b);
+                i6b += summand;
+                summand += 1;
+            }
+
 
 
 
