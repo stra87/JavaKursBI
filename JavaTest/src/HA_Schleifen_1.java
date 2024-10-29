@@ -29,14 +29,14 @@ public class HA_Schleifen_1 {
 //        }
 
         System.out.println("Teilaufgabe 6:");
-            int i6 = 0;
-            int addition = 1;
+            int i6 = 1;
+            int i6_triangular = 0;
 
+            while (i6_triangular < 100) {
+                System.out.println(i6_triangular);
+                i6_triangular = (i6 * (i6 + 1)) / 2;
+                i6++;
 
-            while (i6 < 100) {
-                int i6_new = i6 + addition;
-                i6 += i6_new;
-                System.out.println(i6);
 
             }
 
