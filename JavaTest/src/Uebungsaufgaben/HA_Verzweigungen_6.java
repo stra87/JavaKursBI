@@ -1,3 +1,5 @@
+package Uebungsaufgaben;
+
 import java.util.Scanner;
 
 public class HA_Verzweigungen_6 {

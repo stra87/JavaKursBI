@@ -1,3 +1,5 @@
+package Uebungsaufgaben;
+
 public class HA_Verzweigungen_1 {
     public static void main(String[] args) {
             int a = 4;

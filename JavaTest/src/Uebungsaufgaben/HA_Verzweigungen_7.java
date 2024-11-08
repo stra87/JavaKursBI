@@ -1,3 +1,5 @@
+package Uebungsaufgaben;
+
 public class HA_Verzweigungen_7 {
     public static void main(String[] args) {
         double zufall = Math.random();

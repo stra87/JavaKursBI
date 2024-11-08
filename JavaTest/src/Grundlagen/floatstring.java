@@ -1,3 +1,5 @@
+package Grundlagen;
+
 public class floatstring {
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Grundlagen;
 
 public class Loops {
     public static void main(String[] args) {
